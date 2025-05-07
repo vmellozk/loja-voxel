@@ -185,11 +185,14 @@ body {
   }
   
   .product-card img {
-    max-width: 150px;
-    height: 120px;
-    object-fit: contain;
-    margin: 12px 0 0 0;
+    width: 240px;
+    height: 160px;
+    object-fit: cover;
+    margin: 0px 0 0 0;
+    display: block;
+    object-position: center;
   }
+  
   .pctag {
     position: absolute;
     top: 2px;
@@ -231,6 +234,7 @@ body {
     font-size: 0.95rem;
     margin-top: 5px;
   }
+
   .mais-vendidos {
     margin-top: 34px;
   }
@@ -241,7 +245,7 @@ body {
   .mv-card img {
     width: 144px;
     height: 144px;
-    object-fit: contain;
+    object-fit: cover;
     background: #fff;
     border-radius: 13px;
     box-shadow: 0 3px 10px #23232344;
@@ -250,6 +254,7 @@ body {
   .mv-card:hover {
     transform: translateY(-7px) scale(1.03);
   }
+
   .marcas-lista {
     display: flex;
     gap: 34px;
@@ -267,7 +272,7 @@ body {
   }
   .main-footer {
     background: #e0e0e0;
-    color: #d30303;
+    color: #000000;
     margin-top: 40px;
     padding-bottom: 40px;
     font-size: 15px;
@@ -286,12 +291,18 @@ body {
     padding: 0;
   }
   .footer-nav a {
-    color: #fc7303;
+    color: #000000;
     text-decoration: none;
   }
+
   .footer-payments {
     margin-left: 24px;
   }
+  .footer-payments img{
+    height: 40px;
+    width: auto;
+  }
+
   .newsletter input {
     padding: 7px 14px;
     border-radius: 7px;
@@ -315,7 +326,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #ce1111;
+    color: #000000;
     padding-top: 8px;
   }
   @media (max-width: 900px) {
