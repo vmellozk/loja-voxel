@@ -41,6 +41,8 @@ body {
   }
   .sidebar-nav a:hover {
     color: #44b694;
+    transform: translateY(-2px) scale(1.03);
+    display: inline-block;
   }
   .main-content {
     flex: 1;
@@ -61,10 +63,19 @@ body {
     margin-left: 18px;
     vertical-align: middle;
   }
+
   .header-icons img {
     width: 25px;
     opacity: 0.85;
   }
+
+  .header-icons img:hover {
+    width: 25px;
+    opacity: 0.85;
+    transform: translateY(-3px) scale(1.03);
+    display: inline-block;
+  }
+
   .main-banner {
     position: relative;
     min-height: 350px;
@@ -106,14 +117,19 @@ body {
     transition: box-shadow 0.18s;
     box-shadow: 0 2px 8px #0003;
   }
+
   .banner-cta:hover {
     box-shadow: 0 4px 18px #1f6f5f22;
+    transform: translateY(-7px) scale(1.03);
+    display: inline-block;
   }
+
   .banner-pagination {
     position: absolute;
     left: 52px;
     bottom: 19px;
   }
+
   .banner-pagination span {
     display: inline-block;
     width: 12px;
@@ -123,6 +139,7 @@ body {
     border-radius: 50%;
     cursor: pointer;
   }
+  
   .banner-pagination .active {
     background: #000;
   }
@@ -224,10 +241,21 @@ body {
     font-weight: bold;
     font-size: 1.02rem;
   }
+
   .pix {
-    color: #2a2de6;
-    font-weight: bold;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 4px;
   }
+
+  .rating i {
+    margin-right: 4px;
+  }
+  
+  .sold {
+    font-weight: 500;
+  }
+
   .installments {
     color: #444064;
     font-size: 0.95rem;
@@ -291,6 +319,10 @@ body {
   }
   .footer-nav a {
     color: #000000;
+    text-decoration: none;
+  }
+  .footer-nav a:hover {
+    color: #44b694;
     text-decoration: none;
   }
 
