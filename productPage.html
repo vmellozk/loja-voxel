@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1024" />
+    <title>Voxel Lab - Performance em todas as dimensões</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="productPage.css">
+  </head>
+  <body>
+    <div class="app-layout">
+
+      <!-- Sidebar/Menu -->
+      <aside class="sidebar">
+        <div class="sidebar-logo">
+          <a href="index.html">
+            <img src="images/logo_fundo.png" alt="Doctor Mouse Logo">
+          </a>
+        </div>
+        <nav class="sidebar-nav">
+          <ul>
+            <li><a href="categorias.html">PROMOÇÕES</a></li>
+            <li><a href="categorias.html">Acessórios para Casa</a></li>
+            <li><a href="categorias.html">Acessórios para PC</a></li>
+            <li><a href="categorias.html">Action Figures</a></li>
+            <li><a href="categorias.html">Base e Dock Sation</a></li>
+            <li><a href="categorias.html">Bases de Teclado</a></li>
+            <li><a href="categorias.html">Caixas de Organização</a></li>
+            <li><a href="categorias.html">Decoração</a></li>
+            <li><a href="categorias.html">Divisórias para Gaveta</a></li>
+            <li><a href="categorias.html">Luminárias</a></li>
+            <li><a href="categorias.html">Miniaturas</a></li>
+            <li><a href="categorias.html">Porta Objetos</a></li>
+            <li><a href="categorias.html">Suporte para Celular</a></li>
+            <li><a href="categorias.html">Suporte para Console</a></li>
+            <li><a href="categorias.html">Suporte para Controle</a></li>
+            <li><a href="categorias.html">Suporte para Ferramentas</a></li>
+            <li><a href="categorias.html">Suporte para Headset</a></li>
+            <li><a href="categorias.html">Suporte para Mouse</a></li>
+            <li><a href="categorias.html">Suporte para Relógio</a></li>
+            <li><a href="categorias.html">Vasos</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <!-- Header with icons -->
+        <header class="main-header">
+          <div class="spacer"></div>
+          <div class="header-icons">
+            <a href="#"><img src="images/search.png" alt="Pesquisar"></a>
+            <a href="#"><img src="images/carrinho_compra.png" alt="Carrinho"></a>
+            <a href="#"><img src="images/contaa.png" alt="Cadastre-se"></a>
+            <a href="#"><img src="images/sair.png" alt="Sair"></a>
+          </div>
+        </header>
+
+        <!-- Produto  -->
+        <div class="product-page">
+          <div class="product-gallery">
+            <img class="product-main-img" id="main-img" src="images/gabinete_sff_matx_v2.png" alt="Gabinete SFF MAtx - The Glorius v2" />
+            <div class="product-thumbnails">
+              <img class="product-thumb selected" src="images/gabinete_sff_matx_v2.png" alt="Gabinete SFF MAtx - The Glorius v2" data-img="images/gabinete_sff_matx_v2.png" />
+              <img class="product-thumb" src="images/gabinete_sff_matx_v1.png" alt="Gabinete SFF MAtx - The Glorius v2" data-img="images/gabinete_sff_matx_v1.png" />
+              <img class="product-thumb" src="images/suporte_headset.png" alt="Gabinete SFF MAtx - The Glorius v2" data-img="images/suporte_headset.png" />
+              <img class="product-thumb" src="images/suporte_teclado.png" alt="Gabinete SFF MAtx - The Glorius v2" data-img="images/suporte_teclado.png" />
+              <img class="product-thumb" src="images/apoio_pulso_teclado_v1.png" alt="Gabinete SFF MAtx - The Glorius v2" data-img="images/apoio_pulso_teclado_v1.png" />
+            </div>
+          </div>
+          
+          <div class="product-details">
+            <nav class="breadcrumb">
+              <a href="/">Início</a> &gt;
+              <a href="/mouse">Gabinetes SFF MAtx</a> &gt;
+              <span>The Glorius v2</span>
+            </nav>
+            
+            <h1 class="product-title">The Glorius v2</h1>
+
+            <div class="product-prices">
+              <span class="promo-price">R$279,90</span>
+              <span class="original-price">R$289,90</span>
+            </div>
+
+            <span class="installments">12 parcelas de R$183,33 sem juros</span>
+            
+            <div class="payment-icons">
+              <img src="https://ext.same-assets.com/542889973/276316497.png" alt="Visa">
+              <img src="https://ext.same-assets.com/542889973/1364757968.png" alt="Master">
+              <img src="https://ext.same-assets.com/542889973/343845002.svg" alt="Pix">
+            </div>
+
+            <div class="quantity-area">
+              <span>QUANTIDADE</span>
+              <button class="qty-btn" id="decrease">-</button>
+              <span id="qty-value">1</span>
+              <button class="qty-btn" id="increase">+</button>
+            </div>
+
+            <button class="add-cart-btn" id="add-cart">ADICIONAR AO CARRINHO</button>
+
+            <section class="product-description-box">
+              <h2 class="desc-title">Gabinete SFF MAtx - The Glorius v2</h2>
+              <div class="product-description">
+                DESCRIÇÃO COMPLETA DO PRODUTO AAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+              </div>
+            </section>
+            
+          </div>
+        </div>
+        
+        <!-- Produtos Relacionados -->
+        <section class="related-products-section">
+          <h2 class="related-title">PRODUTOS RELACIONADOS</h2>
+          <div class="related-products-list">
+            
+            <!-- Produto 1 -->
+            <a href="productPage.html" class="card-link" style="text-decoration: none; color: inherit;">
+              <div class="product-card" data-images='["images/teclado_numerico.png", "images/gabinete_sff_matx_v1.png"]'>
+                <div class="pctag">10% OFF</div>
+                <div class="image-carousel">
+                  <img class="carousel-img" alt="produto">
+                  <button class="carousel-btn prev">&#10094;</button>
+                  <button class="carousel-btn next">&#10095;</button>
+                </div>
+
+                <div class="card-content">
+                  <h3>Base de Teclado Numérico</h3>
+                  <p><span class="main-price">R$39,90</span> <span class="old-price">R$49,90</span></p>
+                  <p class="pix">
+                    <span class="rating">
+                      <i class="fas fa-star" style="color: #f5c518;"></i> 4.8
+                    </span>
+                    &nbsp;|&nbsp;
+                    <span class="sold">123 vendidos</span>
+                  </p>
+                </div>
+              </div>
+            </a>
+
+            <!-- Produto 2 -->
+            <a href="productPage.html" class="card-link" style="text-decoration: none; color: inherit;">
+              <div class="product-card" data-images='["images/base_carregamento.png", "images/gabinete_sff_matx_v1.png"]'>
+                <div class="pctag">10% OFF</div>
+                <div class="image-carousel">
+                  <img class="carousel-img" alt="produto">
+                  <button class="carousel-btn prev">&#10094;</button>
+                  <button class="carousel-btn next">&#10095;</button>
+                </div>
+
+                <div class="card-content">
+                  <h3>Base de Carregamento - Fone e Celular</h3>
+                  <p><span class="main-price">R$19,90</span> <span class="old-price">R$29,90</span></p>
+                  <p class="pix">
+                    <span class="rating">
+                      <i class="fas fa-star" style="color: #f5c518;"></i> 4.3
+                    </span>
+                    &nbsp;|&nbsp;
+                    <span class="sold">820 vendidos</span>
+                  </p>
+                </div>
+              </div>
+            </a>
+
+            <!-- Produto 3 -->
+            <a href="productPage.html" class="card-link" style="text-decoration: none; color: inherit;">
+              <div class="product-card" data-images='["images/apoio_pulso_teclado_v3.png", "images/gabinete_sff_matx_v1.png"]'>
+                <div class="image-carousel">
+                  <img class="carousel-img" alt="produto">
+                  <button class="carousel-btn prev">&#10094;</button>
+                  <button class="carousel-btn next">&#10095;</button>
+                </div>
+
+                <div class="card-content">
+                  <h3>Apoio de Pulso Teclado, com Compartimentos</h3>
+                  <p><span class="main-price">R$79,90</span></p>
+                  <p class="pix">
+                    <span class="rating">
+                      <i class="fas fa-star" style="color: #f5c518;"></i> 4.3
+                    </span>
+                    &nbsp;|&nbsp;
+                    <span class="sold">12 vendidos</span>
+                  </p>
+                  <p class="installments"></p>
+                </div>
+              </div>
+            </a>
+
+            <!-- Produto 4 -->
+            <a href="productPage.html" class="card-link" style="text-decoration: none; color: inherit;">
+              <div class="product-card" data-images='["images/apoio_pulso_mouse.png"]'>
+                <div class="image-carousel">
+                  <img class="carousel-img" alt="produto">
+                  <button class="carousel-btn prev">&#10094;</button>
+                  <button class="carousel-btn next">&#10095;</button>
+                </div>
+
+                <div class="card-content">
+                  <h3>Apoio de Pulso para Mouse</h3>
+                  <p><span class="main-price">R$19,90</span></p>
+                  <p class="pix">
+                    <span class="rating">
+                      <i class="fas fa-star" style="color: #f5c518;"></i> 4.2
+                    </span>
+                    &nbsp;|&nbsp;
+                    <span class="sold">70 vendidos</span>
+                  </p>
+                </div>
+              </div>
+            </a>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+          <div class="footer-nav">
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">GARANTIA</a></li>
+              <li><a href="#">PRIVACIDADE</a></li>
+              <li><a href="#">TROCAS E DEVOLUÇÕES</a></li>
+              
+              <div class="footer-payments">
+                <img src="images/formas_pagamento.png" alt="visa">
+              </div>
+
+              <div class="footer-contact">voxel.labb@atendimento.com.br</div>
+              
+            </ul>
+          </div>
+          <div class="footer-copyright">
+            <span>Copyright Voxel Lab. © | Todos os direitos reservados.</span>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script type="module" src="src/productPage.ts"></script>
+  </body>
+</html>
