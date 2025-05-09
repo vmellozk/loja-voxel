@@ -372,3 +372,34 @@ body {
   .main-header { justify-content: flex-end; }
   .footer-nav, .footer-copyright { flex-direction:column; gap:8px; align-items:flex-start;}
 }
+
+
+.image-carousel {
+  position: relative;
+}
+
+.carousel-img {
+  width: 100%;
+  display: block;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255,255,255,0.7);
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 6px;
+  display: none;
+  z-index: 1;
+}
+
+.carousel-btn.prev {
+  left: 5px;
+}
+
+.carousel-btn.next {
+  right: 5px;
+}
