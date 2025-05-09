@@ -28,12 +28,16 @@ document.addEventListener("DOMContentLoaded", () => {
       imgElement.src = state.images[state.currentIndex];
     };
 
-    prevBtn.addEventListener("click", () => {
+    prevBtn.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
       state.currentIndex = (state.currentIndex - 1 + state.images.length) % state.images.length;
       updateImage();
     });
 
-    nextBtn.addEventListener("click", () => {
+    nextBtn.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
       state.currentIndex = (state.currentIndex + 1) % state.images.length;
       updateImage();
     });
