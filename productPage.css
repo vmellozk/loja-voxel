@@ -51,7 +51,7 @@ body {
 }
 
 .sidebar-nav a:hover {
-  color: #44b694;
+  color: #2325f0;
   transform: translateY(-2px) scale(1.03);
   display: inline-block;
 }
@@ -245,7 +245,7 @@ body {
   font-size: 0.92rem;
 }
 .main-price {
-  color: #ae622b;
+  color: #1538aa;
   font-weight: bold;
   font-size: 1.02rem;
 }
@@ -331,7 +331,7 @@ body {
 }
 
 .footer-nav a:hover {
-  color: #44b694;
+  color: #2325f0;
   text-decoration: none;
 }
 
@@ -464,19 +464,19 @@ body {
 .breadcrumb {
   font-size: 13px;
   margin-bottom: 16px;
-  color: #736e6f;
+  color: #141414;
 }
 .breadcrumb a {
-  color: #736e6f;
+  color: #141414;
   text-decoration: none;
 }
 .breadcrumb span {
-  color: #59b47c;
+  color: #2325f0;
 }
 
 .product-title {
   font-size: 2.0rem;
-  color: #fff;
+  color: #080808;
   margin-bottom: 8px;
   font-weight: 700;
 }
@@ -496,7 +496,7 @@ body {
 }
 
 .promo-price {
-  color: #fff;
+  color: #2325f0;
   font-weight: 700;
 }
 
@@ -518,7 +518,7 @@ body {
 .installments {
   font-size: 1.05rem;
   margin-bottom: 8px;
-  color: #fff;
+  color: #141414;
 }
 
 .payment-icons {
@@ -537,6 +537,7 @@ body {
   align-items: center;
   margin-bottom: 18px;
   gap: 10px;
+  color: #141414;
 }
 
 .qty-btn {
@@ -626,7 +627,7 @@ body {
 }
 
 .related-title {
-  color: #fff;
+  color: #141414;
   font-size: 1.17rem;
   font-weight: 700;
   margin-bottom: 22px;

@@ -49,7 +49,7 @@ body {
 }
 
 .sidebar-nav a:hover {
-  color: #44b694;
+  color: #2528f0;
   transform: translateY(-2px) scale(1.03);
   display: inline-block;
 }
@@ -179,7 +179,7 @@ body {
 .destaques h2, .mais-vendidos h2, .marcas h2 {
   margin: 0 0 18px 0;
   font-weight: 700;
-  color: #fff;
+  color: #141414;
   letter-spacing: .2px;
 }
 .destaques-cards {
@@ -243,7 +243,7 @@ body {
   font-size: 0.92rem;
 }
 .main-price {
-  color: #ae622b;
+  color: #2528f0;
   font-weight: bold;
   font-size: 1.02rem;
 }
@@ -329,7 +329,7 @@ body {
 }
 
 .footer-nav a:hover {
-  color: #44b694;
+  color: #2528f0;
   text-decoration: none;
 }
 
