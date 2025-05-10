@@ -106,3 +106,31 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+//
+const fakeNames = [
+  { name: "Mariana Lopes", location: "Recife, PE" },
+  { name: "Carlos Silva", location: "Porto Alegre, RS" },
+  { name: "Julia Fernandes", location: "Salvador, BA" }
+];
+
+document.getElementById("addCommentBtn")?.addEventListener("click", () => {
+  const input = document.getElementById("commentInput") as HTMLInputElement;
+  const comment = input.value.trim();
+  if (comment) {
+    const randomUser = fakeNames[Math.floor(Math.random() * fakeNames.length)];
+
+    const commentCard = document.createElement("div");
+    commentCard.className = "comment-card";
+    commentCard.innerHTML = `
+      <div class="comment-header">
+        <strong>${randomUser.name}</strong>
+        <span class="comment-location">${randomUser.location}</span>
+      </div>
+      <p class="comment-text">${comment}</p>
+    `;
+
+    document.getElementById("commentsList")?.prepend(commentCard);
+    input.value = "";
+  }
+});
