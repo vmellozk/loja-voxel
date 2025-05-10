@@ -316,7 +316,8 @@ body {
   display: flex;
   align-items: center;
   padding: 18px 28px 10px 28px;
-  justify-content: space-between;
+  justify-content: center;
+  margin-bottom: 30px;
   flex-wrap: wrap;
 }
 .footer-nav ul {
@@ -337,9 +338,15 @@ body {
 
 .footer-payments {
   margin-left: 24px;
-}
-.footer-payments img{
   height: 40px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-payments img{
+  height: 60px;
   width: auto;
 }
 
@@ -407,27 +414,35 @@ body {
   right: 5px;
 }
 
+.product-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background: #e0e0e0;
+}
+
 .product-page {
   display: flex;
-  gap: 48px;
-  background: #e0e0e0;
-  color: #f4f3f3;
-  font-family: 'Open Sans', Arial, sans-serif;
-  padding: 40px 0;
+  gap: 50px;
+  max-width: 1200px;
+  width: 100%;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .product-gallery {
-  min-width: 380px;
-  max-width: 420px;
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .product-main-img {
-  width: 370px;
-  height: 370px;
+  width: 100%;
+  width: 700px;
+  height: 500px;
+  aspect-ratio: 16 / 9;
+  max-width: 720px;
   object-fit: cover;
   border-radius: 16px;
   border: 1px solid #353535;
@@ -565,11 +580,11 @@ body {
   color: #fff;
   border: none;
   border-radius: 7px;
-  font-size: 1.14rem;
+  font-size: 1rem;
   font-weight: 700;
   padding: 13px 0;
   display: block;
-  width: 74%;
+  width: 70%;
   transition: background 0.16s;
   margin-bottom: 30px;
   cursor: pointer;
@@ -581,11 +596,12 @@ body {
 }
 
 .product-description-box {
-  background: #2d2d2d;
   border-radius: 12px;
-  padding: 18px 18px 12px 18px;
-  margin-top: 14px;
-  color: #f4f3f3;
+  padding: 24px;
+  margin: auto 800px auto 800px;
+  color: #000000;
+  max-width: 1450px;
+  width: 100%;
 }
 
 .desc-title {
@@ -596,6 +612,9 @@ body {
 
 .product-description {
   font-size: 1.03rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  overflow-x: hidden;
 }
 .product-description p {
   margin-bottom: 10px;
@@ -623,7 +642,7 @@ body {
 /* Produtos Relacionados */
 .related-products-section {
   margin-top: 44px;
-  padding: 0 10px 24px 10px;
+  padding: 24px 150px 24px 80px;
 }
 
 .related-title {
@@ -631,13 +650,16 @@ body {
   font-size: 1.17rem;
   font-weight: 700;
   margin-bottom: 22px;
+  text-align: center;
 }
 
 .related-products-list {
   display: flex;
   gap: 22px;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  flex-wrap: nowrap;
+  justify-content: center;
+  overflow-x: auto;
+  padding-bottom: 10px;
 }
 
 .related-card {

@@ -169,7 +169,7 @@ body {
   }
   .destaques, .mais-vendidos, .marcas {
     margin: 36px 0 0 0;
-    padding: 0 30px;
+    padding: 24px 80px 24px 80px;
   }
   .destaques h2, .mais-vendidos h2, .marcas h2 {
     margin: 0 0 18px 0;
@@ -305,6 +305,7 @@ body {
     margin-top: 40px;
     padding-bottom: 40px;
     font-size: 15px;
+    padding: 24px 80px 84px 80px;
   }
   .footer-nav {
     display: flex;
@@ -312,7 +313,12 @@ body {
     padding: 18px 28px 10px 28px;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 18px 28px 10px 28px;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
   }
+  
   .footer-nav ul {
     display: flex;
     gap: 20px;
@@ -330,9 +336,15 @@ body {
 
   .footer-payments {
     margin-left: 24px;
-  }
-  .footer-payments img{
     height: 40px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-payments img{
+    height: 60px;
     width: auto;
   }
 
