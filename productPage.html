@@ -81,12 +81,20 @@
               
               <h1 class="product-title">The Glorius v2</h1>
 
+              <p class="pix">
+                <span class="rating">
+                  <i class="fas fa-star" style="color: #f5c518;"></i> 4.2
+                </span>
+                &nbsp;|&nbsp;
+                <span class="sold">70 vendidos</span>
+              </p>
+
               <div class="product-prices">
                 <span class="promo-price">R$279,90</span>
                 <span class="original-price">R$289,90</span>
               </div>
 
-              <span class="installments">12 parcelas de R$183,33 sem juros</span>
+              <span class="installments">12 parcelas de R$23,33 sem juros</span>
               
               <div class="payment-icons">
                 <img src="https://ext.same-assets.com/542889973/276316497.png" alt="Visa">
@@ -101,7 +109,24 @@
                 <button class="qty-btn" id="increase">+</button>
               </div>
 
+              <div class="color-selection">
+                <label for="color">Escolha a Cor:</label>
+                <select id="color" class="color-dropdown">
+                  <option value="preto">Preto</option>
+                  <option value="branco">Branco</option>
+                  <option value="vermelho">Vermelho</option>
+                </select>
+              </div>
+
               <button class="add-cart-btn" id="add-cart">ADICIONAR AO CARRINHO</button>
+              
+              <div class="frete-calc">
+                <label for="cep">Calcular Frete:</label>
+                <div class="frete-input-group">
+                  <input type="text" id="cep" placeholder="Digite seu CEP" maxlength="9">
+                  <button class="frete-btn">Calcular</button>
+                </div>
+              </div>
               
             </div>
           </div>

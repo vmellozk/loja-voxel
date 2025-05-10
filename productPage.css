@@ -189,12 +189,14 @@ body {
   gap: 18px;
   flex-wrap: wrap;
 }
+
 .product-card {
   background: #fff;
   color: #232323;
   border-radius: 14px;
-  min-width: 220px;
-  width: 233px;
+  min-width: 160px;
+  width: 240px;
+  min-height: 300px;
   box-shadow: 0 6px 13px #0002;
   position: relative;
   overflow: hidden;
@@ -423,7 +425,7 @@ body {
 
 .product-page {
   display: flex;
-  gap: 50px;
+  gap: 80px;
   max-width: 1200px;
   width: 100%;
   justify-content: center;
@@ -537,14 +539,31 @@ body {
 }
 
 .payment-icons {
-  margin-bottom: 16px;
+  margin-bottom: 14px;
+  margin-top: 16px;
 }
+
 .payment-icons img {
   height: 24px;
   margin-right: 8px;
   background: #fff;
   border-radius: 6px;
   padding: 1px 4px;
+}
+
+.color-selection {
+  margin-bottom: 18px;
+  color: #141414;
+  font-size: 1rem;
+}
+
+.color-dropdown {
+  margin-top: 6px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 1rem;
 }
 
 .quantity-area {
@@ -595,12 +614,47 @@ body {
   background: #59b47c;
 }
 
+.frete-calc {
+  margin-top: 20px;
+  color: #141414;
+  font-size: 1rem;
+}
+
+.frete-input-group {
+  display: flex;
+  margin-top: 6px;
+  gap: 8px;
+}
+
+.frete-input-group input[type="text"] {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.frete-btn {
+  background: #2325f0;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.15s;
+}
+
+.frete-btn:hover {
+  background: #59b47c;
+}
+
 .product-description-box {
   border-radius: 12px;
   padding: 24px;
-  margin: auto 800px auto 800px;
+  margin: auto 785px auto 785px;
   color: #000000;
-  max-width: 1450px;
+  max-width: 1400px;
   width: 100%;
 }
 
@@ -642,7 +696,7 @@ body {
 /* Produtos Relacionados */
 .related-products-section {
   margin-top: 44px;
-  padding: 24px 150px 24px 80px;
+  padding: 24px 170px 24px 80px;
 }
 
 .related-title {

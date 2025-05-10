@@ -191,8 +191,9 @@ body {
   background: #fff;
   color: #232323;
   border-radius: 14px;
-  min-width: 220px;
-  width: 233px;
+  min-width: 160px;
+  width: 240px;
+  min-height: 300px;
   box-shadow: 0 6px 13px #0002;
   position: relative;
   overflow: hidden;

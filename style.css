@@ -167,27 +167,44 @@ body {
   .cookie-banner button:hover {
     background: #44b694;
   }
-  .destaques, .mais-vendidos, .marcas {
+
+  .marcas {
     margin: 36px 0 0 0;
     padding: 24px 80px 24px 80px;
   }
-  .destaques h2, .mais-vendidos h2, .marcas h2 {
+
+  .marcas h2 {
     margin: 0 0 18px 0;
     font-weight: 700;
     color: #141414;
     letter-spacing: .2px;
   }
+
+  .destaques {
+    margin: 36px 0 0 0;
+    padding: 24px 80px 24px 80px;
+  }
+
+  .destaques h2 {
+    margin: 0 0 18px 0;
+    font-weight: 700;
+    color: #141414;
+    letter-spacing: .2px;
+  }
+
   .destaques-cards {
     display: flex;
     gap: 18px;
     flex-wrap: wrap;
   }
+  
   .product-card {
     background: #fff;
     color: #232323;
     border-radius: 14px;
-    min-width: 220px;
-    width: 233px;
+    min-width: 160px;
+    width: 240px;
+    min-height: 300px;
     box-shadow: 0 6px 13px #0002;
     position: relative;
     overflow: hidden;
@@ -265,14 +282,27 @@ body {
 
   .mais-vendidos {
     margin-top: 34px;
+    margin: 36px 0 0 0;
+    padding: 24px 80px 24px 80px;
   }
+
+  .mais-vendidos h2 {
+    margin: 0 0 18px 0;
+    font-weight: 700;
+    color: #141414;
+    letter-spacing: .2px;
+  }
+
   .produtos-lista {
     display: flex;
     gap: 19px;
   }
+  
   .mv-card img {
-    width: 144px;
-    height: 144px;
+    width: 170px;
+    min-width: 144px;
+    min-height: 144px;
+    height: 170px;
     object-fit: cover;
     background: #fff;
     border-radius: 13px;
